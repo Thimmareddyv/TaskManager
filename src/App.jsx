@@ -34,8 +34,12 @@ export default function App() {
 
   return (
     <div className="container">
-      <h1>Task Buddy</h1>
-      <h3>The Friendly Task Manager</h3>
+      <header>
+    <h1 className="title">TaskManager</h1>
+      <p className='tagline'>The Friendly Task Manager</p>
+      </header>
+      
+      
 
       <TaskForm addTask={addTask} />
 
